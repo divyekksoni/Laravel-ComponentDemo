@@ -15,6 +15,8 @@
             ];
         @endphp
         <x-parent-component :data="$jsonData"/>
+            <x-form-component />
+            <x-table-component :data="$data" />
     </div>
 </body>
 </html>
